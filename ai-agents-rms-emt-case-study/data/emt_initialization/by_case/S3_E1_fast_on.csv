@@ -1,0 +1,20 @@
+case,quantity,dpsim,paraemt,difference,tolerance,result
+S3_E1_fast_on,"Pre-fault V1, pu",1.0087,1.0082,0.0005,±0.005,AGREE
+S3_E1_fast_on,"Pre-fault P, MW",133.3151,133.0000,0.3151,±1.3,AGREE
+S3_E1_fast_on,"Pre-fault Q, Mvar",-4.5561,2.0007,-6.5568,±1.3,DISAGREE
+S3_E1_fast_on,"During V min, pu",0.0003,0.0003,0.0000,±0.03,AGREE
+S3_E1_fast_on,"During V1, pu",0.0003,0.0003,0.0000,±0.03,AGREE
+S3_E1_fast_on,"During V2, pu",0.0000,0.0000,0.0000,±0.02,AGREE
+S3_E1_fast_on,"During Iq, pu",0.3667,0.7157,-0.3490,±0.05,DISAGREE
+S3_E1_fast_on,"Post-clear OV peak, pu",1.2589,1.0126,0.2464,±0.0200,DISAGREE
+S3_E1_fast_on,"Voltage recovery, s",0.0141,0.0143,-0.0001,±0.0167,AGREE
+S3_E1_fast_on,"BESS P recovery, s",0.0307,0.0807,-0.0500,±0.0500,AGREE
+S3_E1_fast_on,"First UPS transfer, s",0.5199,0.5200,-0.0001,±0.05 s,AGREE
+S3_E1_fast_on,UPS transfer count,1,1,0,exact,AGREE
+S3_E1_fast_on,verdict bess_voltage_time,PASS,PASS,—,exact,AGREE
+S3_E1_fast_on,verdict bess_p_restore,PASS,PASS,—,exact,AGREE
+S3_E1_fast_on,verdict bess_reactive,NOT APPLICABLE,NOT APPLICABLE,—,exact,AGREE
+S3_E1_fast_on,verdict bess_pll,PASS,PASS,—,exact,AGREE
+S3_E1_fast_on,verdict lcl_return,PASS,PASS,—,exact,AGREE
+S3_E1_fast_on,verdict lcl_six_sags,NOT APPLICABLE,NOT APPLICABLE,—,exact,AGREE
+S3_E1_fast_on,verdict system_recovery,PASS,PASS,—,exact,AGREE

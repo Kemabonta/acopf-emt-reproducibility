@@ -1,0 +1,13 @@
+ID,Requirement statement,Source,EMT pass line,RMS pass line,Events / cases
+R1,"BESS stays connected and exchanging current through the Table B (ESR) voltage-time envelope at the POIB, cumulative over 10 s","NOG 2.9.1.1(1), (5); PRC-029-1 R2",BESS voltage-time,B1,"E1–E8, E10, E11, E13 / T1–T7, T9, T11"
+R2,Active power returns to its pre-disturbance level within 1.0 s of POIB voltage recovery,NOG 2.9.1.1(4); PRC-029-1 R2.5; DWG 3.1.5.4,BESS P restore (≤1.0 s),B2,"E1–E8, E11, E13 / T1–T7, T9"
+R3,"Inject current on the affected phases in symmetrical and asymmetrical faults, reactive priority; blocking only in the permissive region","PRC-029-1 R2.2, R2.3, R2.3.1; NOG 2.9.1.1(4)",BESS reactive: Iq > 0.02 pu (capacitive) while V is depressed and above 0.10 pu,B3,"E1–E8, E13 / T1–T7"
+R4,"No trip from PLL loss of synchronism, phase-angle jump or ROCOF",NOG 2.9.1.1(7); PRC-029-1 R2 note 1; DWG 3.1.5.9,BESS PLL: post-event PLL within 0.5 Hz of 60 Hz,None (EMT only),"All E events, E9"
+R5,Ride through the IBR frequency table (58.8–61.2 Hz continuous),NOG 2.6.2.1(1); PRC-029-1 R3,BESS lines applied to E12,B4,E12 / T8
+R6,Load rides through the NOG 2.15 Table A envelope at the POIB; returns to ≥90% within 2 s; a transfer scheme begins return ≤0.25 s and reaches ≥90% ≤0.5 s,"NOG 2.15(3), (3)(a)–(c), (e), (f)",LCL return,L1–L3,"E1–E8, E10, E13 / T1–T7, T11"
+R7,No trip or transfer scheme based solely on a number of sags within a period,NOG 2.15(7),LCL six sags,L5,E7 / T6
+R8,"Load current ≤150% of normal maximum, for no more than 0.5 s",NOG 2.15(3)(d),Locked; not computed (current not recorded),L4,T1–T7
+R9,Load rides through the LCL frequency table (58.8–61.2 Hz continuous),NOG 2.6.4(3),LCL return applied to E12,L6,E12 / T8
+R10,Voltage at buses above 100 kV recovers to 0.90 pu within 5 s (P1) or 10 s (P2–P7) of clearing,PG 4.1.1.5,System recovery (retained buses),Y1,All fault events
+R11,0.2–2 Hz oscillations decay with at least 3% damping,PG 4.1.1.6,Informational,Y2,T1–T11
+R12,Angular and voltage stability; frequency excursions; generator ride-through boundaries; no UFLS (first stage 59.3 Hz),PG 5.3.2.4.3(4); PRC-024-4; NOG 2.6.1 Table 1,—,Y3–Y5,T1–T11

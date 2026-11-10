@@ -1,0 +1,5 @@
+Scenario,Description,BESS dispatch,Data-center load,Point of interconnection
+S1,"Base case, BESS discharging",+130 MW,130 MW,6255 (230 kV)
+S2,BESS charging,−133 MW,130 MW,6255 (230 kV)
+S3,Large-load sensitivity on S1,+133 MW,500 MW,6255 (230 kV)
+S4,Weak tap,EMT: +130 MW (as run)RMS plan: −133 MW,130 MW,6018 (115 kV)

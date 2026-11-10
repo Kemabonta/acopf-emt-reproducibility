@@ -1,0 +1,22 @@
+| grid        | method                 |   rows |   converged |
+|:------------|:-----------------------|-------:|------------:|
+| ACTIVSg2000 | DC-OPF                 |    500 |         498 |
+| ACTIVSg2000 | GridSFM-FT10           |    500 |         500 |
+| ACTIVSg2000 | GridSFM-FT100          |    500 |         500 |
+| ACTIVSg2000 | GridSFM-FT1000         |    500 |         500 |
+| ACTIVSg2000 | GridSFM-Z0             |    500 |         500 |
+| ACTIVSg2000 | MATPOWER-MIPS          |    500 |         498 |
+| ACTIVSg2000 | PM-IPOPT               |    500 |         498 |
+| ACTIVSg2000 | pandapower-PIPS        |    500 |         495 |
+| ACTIVSg500  | DC-OPF                 |    500 |         500 |
+| ACTIVSg500  | GridSFM-FT10           |    500 |         500 |
+| ACTIVSg500  | GridSFM-FT10-S1only    |    500 |         500 |
+| ACTIVSg500  | GridSFM-FT10-commonval |    500 |         500 |
+| ACTIVSg500  | GridSFM-FT100          |    500 |         500 |
+| ACTIVSg500  | GridSFM-FT100-S1only   |    500 |         500 |
+| ACTIVSg500  | GridSFM-FT1000         |    500 |         500 |
+| ACTIVSg500  | GridSFM-FT1000-final   |    500 |         500 |
+| ACTIVSg500  | GridSFM-Z0             |    500 |         500 |
+| ACTIVSg500  | MATPOWER-MIPS          |    500 |         488 |
+| ACTIVSg500  | PM-IPOPT               |    500 |         488 |
+| ACTIVSg500  | pandapower-PIPS        |    500 |         494 |

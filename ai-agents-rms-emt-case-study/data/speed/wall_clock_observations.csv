@@ -1,0 +1,15 @@
+tool,case,network,step,simulated_s,wall_s,wall_s_per_sim_s
+ANDES 2.0.0,S1 T1,full system 2000 buses,1/240 s,20.0,366,18.3
+ANDES 2.0.0,S1 T5,full system 2000 buses,1/240 s,20.0,365,18.2
+DPsim 1.4,S1 E1,Kron-reduced area 21 buses,20 us,4.5,246,54.6
+DPsim 1.4,S1 E2,Kron-reduced area 21 buses,20 us,4.5,244,54.3
+DPsim 1.4,S1 E5,Kron-reduced area 21 buses,20 us,4.5,244,54.3
+DPsim 1.4,S1 E8,Kron-reduced area 21 buses,20 us,4.5,245,54.4
+DPsim 1.4,S1 E1,Kron-reduced area 21 buses,10 us,4.5,497,110.4
+DPsim 1.4,S1 E2,Kron-reduced area 21 buses,10 us,4.5,498,110.6
+DPsim 1.4,S1 E5,Kron-reduced area 21 buses,10 us,4.5,494,109.8
+DPsim 1.4,S1 E8,Kron-reduced area 21 buses,10 us,4.5,490,108.9
+ParaEMT,S1 E1,Kron-reduced area 21 buses,50 us,4.5,39,8.7
+ParaEMT,S1 E2,Kron-reduced area 21 buses,50 us,4.5,40,8.8
+ParaEMT,S1 E5,Kron-reduced area 21 buses,50 us,4.5,42,9.4
+ParaEMT,S1 E8,Kron-reduced area 21 buses,50 us,4.5,38,8.3

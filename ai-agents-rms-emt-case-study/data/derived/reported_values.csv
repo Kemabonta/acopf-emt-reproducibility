@@ -1,0 +1,82 @@
+quantity,value,unit,table_or_section,source_type
+Project transformer rating,133,MVA,"Network, Project, and Criteria",study setting recorded in text
+Project transformer reactance,8,%,"Network, Project, and Criteria",study setting recorded in text
+Project transformer X/R,40,,"Network, Project, and Criteria",study setting recorded in text
+Data-center load share on uninterruptible supply,75,%,"Network, Project, and Criteria",study setting recorded in text
+Data-center load share for cooling,25,%,"Network, Project, and Criteria",study setting recorded in text
+Data-center load power factor,0.98,,"Network, Project, and Criteria",study setting recorded in text
+"Short-circuit level at bus 6255, full network",17.585,GVA,Kron Reduction of the EMT Area,study output recorded in text
+"X/R at bus 6255, full network",9.03,,Kron Reduction of the EMT Area,study output recorded in text
+"Short-circuit level at bus 6255, passivated network",17.602,GVA,Kron Reduction of the EMT Area,study output recorded in text
+"X/R at bus 6255, passivated network",9.05,,Kron Reduction of the EMT Area,study output recorded in text
+ANDES time step,1/240,s,Simulators and Plant Models,study setting recorded in text
+ANDES Newton tolerance,0.0001,,Simulators and Plant Models,study setting recorded in text
+"DPsim time step, first",10,us,Table II,study setting recorded in text
+"DPsim time step, second",20,us,Table II,study setting recorded in text
+ParaEMT time step,50,us,Table II,study setting recorded in text
+ANDES plant base,133,MVA,Table II,study setting recorded in text
+EMT plant base,140,MVA,Table II,study setting recorded in text
+"Reduced network buses, S1 to S3",21,buses,Kron Reduction of the EMT Area,study output recorded in text
+"Reduced network branches, S1 to S3",76,branches,Kron Reduction of the EMT Area,study output recorded in text
+"Boundary buses, S1 to S3",14,buses,Kron Reduction of the EMT Area,study output recorded in text
+"Reduced network buses, S4",7,buses,Kron Reduction of the EMT Area,study output recorded in text
+"Reduced network branches, S4",18,branches,Kron Reduction of the EMT Area,study output recorded in text
+"Boundary buses, S4",4,buses,Kron Reduction of the EMT Area,study output recorded in text
+Mutual terms dropped below 1 percent,45,terms,Kron Reduction of the EMT Area,study output recorded in text
+"Reconstruction error, voltage",1.327e-09,pu,Kron Reduction of the EMT Area,study output recorded in text
+"Reconstruction error, angle",1.882e-08,deg,Kron Reduction of the EMT Area,study output recorded in text
+"Largest retained-bus pre-fault voltage magnitude difference, bus 6229",0.005,pu,Kron Reduction of the EMT Area,study output recorded in text
+"Largest retained-bus pre-fault voltage angle difference, bus 6229",0.5,deg,Kron Reduction of the EMT Area,study output recorded in text
+"Speed gate, upper",1.2,pu,Loss-of-Synchronism Rule,study setting recorded in text
+"Speed gate, lower",0.8,pu,Loss-of-Synchronism Rule,study setting recorded in text
+Speed gate duration,0.05,s,Loss-of-Synchronism Rule,study setting recorded in text
+Out-of-step angle relative to center of inertia,360,deg,Loss-of-Synchronism Rule,study setting recorded in text
+Without-project comparisons,15,comparisons,RMS Cases and Without-Project Comparisons,study output recorded in text
+Comparisons in which the same machines lose synchronism with and without the project,13,comparisons,RMS Cases and Without-Project Comparisons,study output recorded in text
+S2 T11 no-project run stop time,8.41,s,RMS Cases and Without-Project Comparisons,study output recorded in text
+S2 T11 no-project run stop machine bus,6215,bus,RMS Cases and Without-Project Comparisons,study output recorded in text
+"Load return time after long bolted faults, S1 T1, S1 T2, S3 T1, S3 T2, S3 T3",5.0,s,RMS Cases and Without-Project Comparisons,study output recorded in text
+"Load return time after six-sag cases, S1 T6, S2 T6, S3 T6, lowest",5.51,s,RMS Cases and Without-Project Comparisons,study output recorded in text
+"Load return time after six-sag cases, S1 T6, S2 T6, S3 T6, highest",5.56,s,RMS Cases and Without-Project Comparisons,study output recorded in text
+"Austin 2 turbine angle swing, largest, four paired S1 cases",70,deg,Rotor-Angle Result Is RMS-Only,study output recorded in text
+EMT intake bench rows,220,rows,EMT Intake and System Study,study output recorded in text
+EMT intake bench rows passing,176,rows,EMT Intake and System Study,study output recorded in text
+EMT intake bench rows failing,2,rows,EMT Intake and System Study,study output recorded in text
+EMT intake bench rows informational,42,rows,EMT Intake and System Study,study output recorded in text
+EMT intake bench rows scored,178,rows,EMT Intake and System Study,study output recorded in text
+EMT system study events,12,events,EMT Intake and System Study,study output recorded in text
+"EMT system study cases, S1",18,cases,EMT Intake and System Study,study output recorded in text
+"EMT system study cases, S2",14,cases,EMT Intake and System Study,study output recorded in text
+"EMT system study cases, S3",5,cases,EMT Intake and System Study,study output recorded in text
+"EMT system study cases, S4",5,cases,EMT Intake and System Study,study output recorded in text
+"EMT system study cases, total",42,cases,EMT Intake and System Study,study output recorded in text
+EMT system study rows,84,rows,EMT Intake and System Study,study output recorded in text
+EMT system study lines per row,10,lines,EMT Intake and System Study,study output recorded in text
+EMT system study lines passing,460,lines,EMT Intake and System Study,study output recorded in text
+EMT system study lines failing,16,lines,EMT Intake and System Study,study output recorded in text
+EMT system study lines not applicable,112,lines,EMT Intake and System Study,study output recorded in text
+EMT system study lines informational,252,lines,EMT Intake and System Study,study output recorded in text
+Case pairs with the same scored verdicts at 10 and 20 us,42,pairs,EMT Intake and System Study,study output recorded in text
+Step-size gate failures before the flag switch fix,2,attempts,Table IV row 1,study output recorded in text
+Step-size gate active-power error,0.15,pu,Table IV row 1,study output recorded in text
+"Step-size gate active-power error, upper",0.17,pu,Table IV row 1,study output recorded in text
+Reactive power at bus 6255 with G and B swapped in the export,1757.8,Mvar,Table IV row 2,study output recorded in text
+Reactive power at bus 6255 after the export correction,7.193,Mvar,Table IV row 2,study output recorded in text
+"Six-sag run stop time, S1 T6 and S3 T6 with counting",77.315,s,Table IV row 3,study output recorded in text
+"Machine speed in the runaway case, S1 T6 and S3 T6",2.6,pu,Table IV row 6,study output recorded in text
+ParaEMT light-load model attempts,3,attempts,Table IV row 8,study output recorded in text
+RMS matrix jobs,58,jobs,Errors and Interventions,study output recorded in text
+RMS matrix jobs finished before the solver change,17,jobs,Errors and Interventions,study output recorded in text
+Wall time per quiet simulated second before the solver fix,40,s/s,Errors and Interventions,study output recorded in text
+"First adoption of the 1/240 s step, wall time, S1 T1",377,s,Errors and Interventions; Run Times,study output recorded in text
+"First adoption of the 1/240 s step, wall time, S1 T5",403,s,Errors and Interventions; Run Times,study output recorded in text
+"Original 1/480 s solver, wall time, S1 T1",820,s,Errors and Interventions; Run Times,study output recorded in text
+"1/240 s versus 1/480 s trace difference, S1 T1 voltage",0.0032,pu,Errors and Interventions,study output recorded in text
+"1/240 s versus 1/480 s trace difference, S1 T1 battery P",0.0065,pu,Errors and Interventions,study output recorded in text
+"1/240 s versus 1/480 s trace difference, S1 T1 battery Q",0.0064,pu,Errors and Interventions,study output recorded in text
+"1/240 s versus 1/480 s trace difference, S1 T5",0.0007,pu,Errors and Interventions,study output recorded in text
+"1/120 s step battery P difference at voltage-dip release, S1 T1",0.17,pu,Errors and Interventions,study output recorded in text
+Archive files matched on receipt,21,files,Errors and Interventions,study output recorded in text
+ParaEMT commit,d79d735a4a587d56c5b88187d1a499195b6b2b84,,Simulators and Plant Models,study setting recorded in text
+DPsim version,1.4,,Simulators and Plant Models,study setting recorded in text
+ANDES version,2.0.0,,Simulators and Plant Models,study setting recorded in text

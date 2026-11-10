@@ -1,0 +1,6 @@
+"Quantity (S1: C1, C3-SLG, C5, C7)",Agreement required
+"Pre-fault POI V, P, Q",±1%
+POI positive-sequence V during fault,±0.05 pu
+Clearing to V > 0.9 pu,±1 cycle or ±20%
+BESS P recovery; LCL return time,±0.1 s
+PASS/FAIL per criterion,"Identical, or explained in a discrepancy table"

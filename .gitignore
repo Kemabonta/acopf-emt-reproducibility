@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pkl
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+# third-party data to be downloaded (see folder READMEs)
+ai-agents-rms-emt-case-study/data/third_party/
+gridsfm-acopf/grids/*.m
+gridsfm-acopf/grids/*.json.gz

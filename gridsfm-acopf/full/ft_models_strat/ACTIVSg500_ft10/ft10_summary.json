@@ -1,0 +1,257 @@
+{
+  "val_ids": [
+    "ACTIVSg500_S4_0070",
+    "ACTIVSg500_S6_0051",
+    "ACTIVSg500_S3_0059",
+    "ACTIVSg500_S1_0186",
+    "ACTIVSg500_S3_0106",
+    "ACTIVSg500_S2_0116",
+    "ACTIVSg500_S5_0051",
+    "ACTIVSg500_S1_0099",
+    "ACTIVSg500_S6_0021",
+    "ACTIVSg500_S1_0172",
+    "ACTIVSg500_S3_0064",
+    "ACTIVSg500_S2_0035",
+    "ACTIVSg500_S4_0013",
+    "ACTIVSg500_S3_0161",
+    "ACTIVSg500_S5_0026",
+    "ACTIVSg500_S2_0161",
+    "ACTIVSg500_S1_0243",
+    "ACTIVSg500_S6_0057",
+    "ACTIVSg500_S1_0035",
+    "ACTIVSg500_S3_0116",
+    "ACTIVSg500_S1_0076",
+    "ACTIVSg500_S2_0045",
+    "ACTIVSg500_S3_0056",
+    "ACTIVSg500_S1_0105",
+    "ACTIVSg500_S5_0082",
+    "ACTIVSg500_S4_0039",
+    "ACTIVSg500_S5_0027",
+    "ACTIVSg500_S6_0107",
+    "ACTIVSg500_S1_0208",
+    "ACTIVSg500_S3_0193",
+    "ACTIVSg500_S2_0004",
+    "ACTIVSg500_S1_0022",
+    "ACTIVSg500_S3_0053",
+    "ACTIVSg500_S4_0087",
+    "ACTIVSg500_S6_0095",
+    "ACTIVSg500_S1_0101",
+    "ACTIVSg500_S2_0120",
+    "ACTIVSg500_S1_0072",
+    "ACTIVSg500_S6_0026",
+    "ACTIVSg500_S3_0049",
+    "ACTIVSg500_S2_0026",
+    "ACTIVSg500_S5_0040",
+    "ACTIVSg500_S3_0063",
+    "ACTIVSg500_S1_0253",
+    "ACTIVSg500_S4_0065",
+    "ACTIVSg500_S2_0096",
+    "ACTIVSg500_S1_0134",
+    "ACTIVSg500_S6_0094",
+    "ACTIVSg500_S3_0186",
+    "ACTIVSg500_S5_0055",
+    "ACTIVSg500_S1_0129",
+    "ACTIVSg500_S3_0087",
+    "ACTIVSg500_S2_0114",
+    "ACTIVSg500_S6_0043",
+    "ACTIVSg500_S1_0169",
+    "ACTIVSg500_S4_0050",
+    "ACTIVSg500_S1_0080",
+    "ACTIVSg500_S3_0065",
+    "ACTIVSg500_S2_0041",
+    "ACTIVSg500_S5_0095",
+    "ACTIVSg500_S1_0117",
+    "ACTIVSg500_S3_0162",
+    "ACTIVSg500_S1_0092",
+    "ACTIVSg500_S6_0118",
+    "ACTIVSg500_S3_0090",
+    "ACTIVSg500_S4_0038",
+    "ACTIVSg500_S2_0054",
+    "ACTIVSg500_S6_0068",
+    "ACTIVSg500_S1_0256",
+    "ACTIVSg500_S3_0042",
+    "ACTIVSg500_S2_0023",
+    "ACTIVSg500_S5_0101",
+    "ACTIVSg500_S1_0131",
+    "ACTIVSg500_S4_0086",
+    "ACTIVSg500_S3_0124",
+    "ACTIVSg500_S1_0274",
+    "ACTIVSg500_S3_0074",
+    "ACTIVSg500_S2_0051",
+    "ACTIVSg500_S6_0126",
+    "ACTIVSg500_S1_0091",
+    "ACTIVSg500_S5_0085",
+    "ACTIVSg500_S2_0124",
+    "ACTIVSg500_S4_0031",
+    "ACTIVSg500_S3_0046",
+    "ACTIVSg500_S1_0218",
+    "ACTIVSg500_S1_0156",
+    "ACTIVSg500_S6_0125",
+    "ACTIVSg500_S3_0192",
+    "ACTIVSg500_S5_0025",
+    "ACTIVSg500_S2_0015",
+    "ACTIVSg500_S1_0057",
+    "ACTIVSg500_S3_0071",
+    "ACTIVSg500_S4_0098",
+    "ACTIVSg500_S5_0005",
+    "ACTIVSg500_S2_0024",
+    "ACTIVSg500_S1_0182",
+    "ACTIVSg500_S3_0202",
+    "ACTIVSg500_S1_0180",
+    "ACTIVSg500_S6_0023",
+    "ACTIVSg500_S4_0043"
+  ],
+  "split": "<repo>/full/ft_splits/ACTIVSg500_split.json",
+  "seed": 10,
+  "threads": 1,
+  "train_ids": [
+    "ACTIVSg500_S1_0007",
+    "ACTIVSg500_S2_0108",
+    "ACTIVSg500_S4_0067",
+    "ACTIVSg500_S5_0091",
+    "ACTIVSg500_S3_0174",
+    "ACTIVSg500_S6_0027",
+    "ACTIVSg500_S3_0032",
+    "ACTIVSg500_S2_0088",
+    "ACTIVSg500_S1_0201",
+    "ACTIVSg500_S1_0023"
+  ],
+  "grid": "ACTIVSg500",
+  "n_train": 10,
+  "n_val": 100,
+  "epochs": 10,
+  "elapsed_s": 147.02991557121277,
+  "zero_shot_val": {
+    "n": 40,
+    "median_cost_gap": 0.4628814405112559,
+    "mean_cost_gap": 0.4669796292018849
+  },
+  "ft_val": {
+    "n": 40,
+    "median_cost_gap": 0.128592969975114,
+    "mean_cost_gap": 0.12805018005791435
+  },
+  "best": {
+    "epoch": 1,
+    "train_loss": 3.1577051401138307,
+    "epoch_s": 6.966423988342285,
+    "elapsed_s": 21.62046980857849,
+    "val": {
+      "n": 40,
+      "median_cost_gap": 0.038106219117507376,
+      "mean_cost_gap": 0.0624560638158735
+    }
+  },
+  "log": [
+    {
+      "epoch": 0,
+      "train_loss": 15.957092428207398,
+      "epoch_s": 7.6802451610565186,
+      "elapsed_s": 7.682501316070557,
+      "val": {
+        "n": 40,
+        "median_cost_gap": 0.4147541414288579,
+        "mean_cost_gap": 0.4061950488099342
+      }
+    },
+    {
+      "epoch": 1,
+      "train_loss": 3.1577051401138307,
+      "epoch_s": 6.966423988342285,
+      "elapsed_s": 21.62046980857849,
+      "val": {
+        "n": 40,
+        "median_cost_gap": 0.038106219117507376,
+        "mean_cost_gap": 0.0624560638158735
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.7715065836906434,
+      "epoch_s": 6.77434778213501,
+      "elapsed_s": 36.042378664016724,
+      "val": {
+        "n": 40,
+        "median_cost_gap": 0.09616977432741189,
+        "mean_cost_gap": 0.10821165617863358
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.3229055523872375,
+      "epoch_s": 6.773484230041504,
+      "elapsed_s": 49.91179060935974,
+      "val": {
+        "n": 40,
+        "median_cost_gap": 0.05641304749088591,
+        "mean_cost_gap": 0.07959720790893059
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.023050570487976,
+      "epoch_s": 6.978083610534668,
+      "elapsed_s": 63.80071425437927,
+      "val": {
+        "n": 40,
+        "median_cost_gap": 0.08591762288957439,
+        "mean_cost_gap": 0.10297252586796628
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6071773320436478,
+      "epoch_s": 6.455686092376709,
+      "elapsed_s": 76.92477536201477,
+      "val": {
+        "n": 40,
+        "median_cost_gap": 0.1326935556517998,
+        "mean_cost_gap": 0.1387333390357807
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.5103560358285903,
+      "epoch_s": 6.768996715545654,
+      "elapsed_s": 91.0055251121521,
+      "val": {
+        "n": 40,
+        "median_cost_gap": 0.10113727616050333,
+        "mean_cost_gap": 0.10925600832836865
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.5010697484016419,
+      "epoch_s": 6.783743619918823,
+      "elapsed_s": 104.53699469566345,
+      "val": {
+        "n": 40,
+        "median_cost_gap": 0.10852367952706832,
+        "mean_cost_gap": 0.11532413120306918
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.4683677166700363,
+      "epoch_s": 7.173862457275391,
+      "elapsed_s": 119.44666266441345,
+      "val": {
+        "n": 40,
+        "median_cost_gap": 0.12847472516528663,
+        "mean_cost_gap": 0.12960168222768745
+      }
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.5046222761273385,
+      "epoch_s": 6.960153818130493,
+      "elapsed_s": 133.26040077209473,
+      "val": {
+        "n": 40,
+        "median_cost_gap": 0.128592969975114,
+        "mean_cost_gap": 0.12805018005791435
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+Grid cases (not redistributed in this repository)
+=================================================
+ACTIVSg2000 (Texas, 2,000 buses) and ACTIVSg500 (South Carolina, 500 buses):
+  Texas A&M University Electric Grid Test Case Repository
+  https://electricgrids.engr.tamu.edu/electric-grid-test-cases/activsg2000/
+  https://electricgrids.engr.tamu.edu/electric-grid-test-cases/activsg500/
+  Copies also ship in the MATPOWER repository, data/case_ACTIVSg2000.m and data/case_ACTIVSg500.m
+  (https://github.com/MATPOWER/matpower, commit 80b6e16f760f58721ad31221c7287c28259cd4ad).
+Copies used for the benchmark (obtained 2026-11-04) and their SHA-256 are in GRID_FILE_SHA256.txt.
+The *_harmonized.m files are the originals with branch angmin/angmax set to +/-60 degrees
+(the originals carry 0/0; PowerModels widens 0/0 to +/-60 degrees by default).
+Check your download against the hash of case_ACTIVSg2000.m / case_ACTIVSg500.m before use.

@@ -1,0 +1,13 @@
+Case,Event,Clearing,Transient,EMT
+C1,"3φ on 6255–6034 near 6255, trip line",5 cyc (83 ms),T1,E1
+C2,"3φ on 6255–6222 near 6255, trip line",5 cyc,T2,—
+C3,SLG / LL / LLG on 6255–6034 near 6255,5 cyc,T5 (approx. Z2+Z0 shunt),E2–E4
+C4,3φ on 500 kV 6254–6292 near 6254,4 cyc,T3,E6
+C5,Stuck breaker: C1 cleared by opening 6255–6034 and 6255–6222,12 cyc (200 ms),T4,E5
+C6,NERC six-fault replay (0.25–0.40 pu; 42/66/58/50/66/59 ms),per fault,T6 (full 82 s),E7 (compressed 8 s)
+C7,"Moderate sags: 0.85 pu for 0.5 s, then 0.75 pu for 0.4 s",—,T7,E8
+C8,"Trip 7099 + 7098 (2,587 MW)",—,T8 (60 s),E12 (playback)
+C9,Trip of the LCL (130 / 500 MW),—,T9,E11
+C10,"1,500 MW Austin-area load loss 0.1 s after C1",—,T10,—
+C11,Over-voltage 1.12–1.15 pu for 0.8 s,—,T11,E10
+C12,Phase-angle jump (line opening; 30° source step),—,—,E9

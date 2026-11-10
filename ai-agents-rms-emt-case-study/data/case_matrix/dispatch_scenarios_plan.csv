@@ -1,0 +1,5 @@
+ID,Description,BESS,LCL
+S1,"Summer peak, case as delivered (67.1 GW)",+130 MW,130 MW
+S2,"Light load: minimum net-load hour from scenarios_ACTIVSg2000.m, merit-order redispatch",−133 MW (charging),130 MW
+S3,Large-LCL sensitivity on S1,+133 MW,500 MW
+S4,"Weak tap: S2 with the project at 6018 (115 kV, ≈7.4 GVA)",−133 MW,130 MW

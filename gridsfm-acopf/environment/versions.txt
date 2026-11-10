@@ -1,0 +1,18 @@
+CPU: Intel(R) Xeon(R) Processor
+CORES: 8
+RAM: 15Gi
+GPU: none (nvidia-smi not found)
+Julia: julia version 1.11.7
+PowerModels 0.21.7
+Ipopt.jl 1.16.0
+JuMP 1.32.1
+Octave: GNU Octave, version 10.3.0
+8.1.1-dev
+Python venv: Python 3.13.5
+torch 2.8.0+cpu cuda False
+torch_geometric 2.8.1
+pandapower 3.5.6
+gridsfm 1.1.0
+numpy 2.4.6
+GridSFM repo commit: 1ca775fd436d7ce013a1c0ab946e61ac7ef59ad6
+MATPOWER repo commit: 80b6e16f760f58721ad31221c7287c28259cd4ad

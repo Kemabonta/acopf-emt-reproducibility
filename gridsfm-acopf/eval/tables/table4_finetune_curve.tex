@@ -1,0 +1,18 @@
+\begin{tabular}{llllllllllllllllllll}
+\hline
+grid & n\_finetune & method & subset & n\_test & cost\_gap\_median\_pct & ci95\_lo\_pct & ci95\_hi\_pct & cost\_gap\_mean\_pct & V\_mae\_pu & ang\_mae\_deg & Pg\_mae\_MW & Qg\_mae\_MVAr & bal\_P\_max\_MW\_med & thermal\_viol\_n\_med & feas\_F1 & feas\_AUC & val\_median\_gap\_pct & best\_epoch & train\_time\_min \\
+\hline
+ACTIVSg2000 & 0 & GridSFM-Z0 & none & 498 & 5.363 & 5.301 & 5.395 & 6.772 & 0.02117 & 10.98 & 27.33 & 31 & 647.7 & 9 & -- & 0.4197 & -- & -- & -- \\
+ACTIVSg2000 & 10 & GridSFM-FT10 & family-stratified & 498 & 0.8656 & 0.8578 & 0.8882 & 1.498 & 0.006527 & 3.376 & 12.76 & 15.66 & 163.7 & 2 & -- & 0.6135 & 0.7856 & 7 & 25.75 \\
+ACTIVSg2000 & 100 & GridSFM-FT100 & family-stratified & 498 & 0.4423 & 0.3212 & 0.7207 & 0.8184 & 0.002694 & 3.532 & 3.564 & 7.632 & 88.95 & 0 & -- & 0.9488 & 0.3886 & 7 & 129.6 \\
+ACTIVSg2000 & 1000 & GridSFM-FT1000 & family-stratified & 498 & 1.357 & 1.333 & 1.369 & 1.399 & 0.001985 & 1.812 & 3.241 & 5.193 & 56.47 & 0 & -- & 0.8795 & 0.5096 & 1 & -- \\
+ACTIVSg500 & 0 & GridSFM-Z0 & none & 488 & 46 & 45.89 & 46.95 & 46.93 & 0.05225 & 2.617 & 48.84 & 21.96 & 325 & 149 & 0.04688 & 0.5 & -- & -- & -- \\
+ACTIVSg500 & 10 & GridSFM-FT10 & family-stratified & 488 & 4.513 & 4.179 & 4.93 & 7.162 & 0.007181 & 7.923 & 30.27 & 12.79 & 166 & 136 & 0.06006 & 0.5924 & 3.811 & 1 & 2.45 \\
+ACTIVSg500 & 100 & GridSFM-FT100 & family-stratified & 488 & 8.559 & 7.556 & 9.777 & 7.605 & 0.00161 & 1.046 & 6.467 & 4.673 & 59.22 & 62 & -- & 0.6536 & 10.43 & 7 & 25.34 \\
+ACTIVSg500 & 1000 & GridSFM-FT1000 & family-stratified & 488 & 1.084 & 0.9519 & 1.273 & 1.62 & 0.001798 & 1.14 & 1.369 & 3.218 & 56.02 & 32 & -- & 0.7834 & 1.458 & 4 & 201.2 \\
+ACTIVSg500 & 1000 & GridSFM-FT1000-final & family-stratified, final epoch & 488 & 1.948 & 1.675 & 2.201 & 2.452 & 0.001102 & 1.161 & 1.692 & 2.595 & 40.07 & 25 & -- & 0.5799 & 1.458 & 4 & 201.2 \\
+ACTIVSg500 & 10 & GridSFM-FT10-S1only & S1 only (manifest order) & 488 & 6.334 & 5.433 & 7.087 & 7.427 & 0.006814 & 5.197 & 28.65 & 10.59 & 131.4 & 117 & 0.3784 & 0.8388 & 6.623 & 2 & 3.125 \\
+ACTIVSg500 & 100 & GridSFM-FT100-S1only & S1 only (manifest order) & 488 & 2.189 & 1.934 & 2.538 & 3.278 & 0.002078 & 1.353 & 2.505 & 5.372 & 68.35 & 60 & -- & 0.9574 & 1.845 & 9 & 23.46 \\
+ACTIVSg500 & 10 & GridSFM-FT10-commonval & family-stratified, S6/S7 val & 488 & 10.45 & 8.864 & 10.83 & 10.75 & 0.006992 & 6.392 & 22.56 & 11.24 & 128.6 & 119 & -- & 0.6872 & 1.631 & 2 & 6.283 \\
+\hline
+\end{tabular}

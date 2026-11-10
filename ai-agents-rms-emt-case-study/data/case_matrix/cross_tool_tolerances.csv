@@ -1,0 +1,14 @@
+Quantity (per case),Agreement required
+Pre-fault POI V,±0.005 pu
+"Pre-fault BESS / LCL P, Q",±1% of rating
+"During-fault POI RMS V (min phase and pos-seq, fault-window mean)",±0.03 pu
+Negative-sequence V (unbalanced),±0.02 pu
+Peak instantaneous phase current,±10%
+"BESS Id, Iq during fault",±0.05 pu (140 MVA)
+LCL current peak,±5% of max normal current
+Post-clearing overvoltage peak,±0.02 pu
+Voltage recovery to ≥0.90 pu,±1 cycle or ±10%
+BESS P recovery (90%),±0.05 s or ±10%
+LCL return time; UPS transfer instants,±0.05 s
+UPS transfers / lockouts (C6),Exact
+Verdict and sign of each margin,Exact
