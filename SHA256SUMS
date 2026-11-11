@@ -127,7 +127,7 @@ e71bd22ea1bd95d56cfa46b034827435f87731f8a3ec3e5140d3f1ac23dc2524  ./ai-agents-rm
 d5b7cdbbaf55fa2294b44d0b38978e97942458b7383990e1e562c1cd2e74aa79  ./ai-agents-rms-emt-case-study/data/rms_results/S4_T8_Buchanan_speed_with_project.csv
 05d868ce49f83919752401adc148bd2d4eb6c5f6a4bb257a525967576a1b6041  ./ai-agents-rms-emt-case-study/data/rms_results/S4_T8_Buchanan_speed_without_project.csv
 862b4b71fe60eceb30ce4d9db2eae76cb59a8ec9a4794e3f0acd22b757239944  ./ai-agents-rms-emt-case-study/data/rms_results/rms_verdict_matrix.csv
-583803df2187aea147ecfc60cf5549a2db6fc5c2d1378dd22329e91ef8900069  ./ai-agents-rms-emt-case-study/data/speed/rms_emt_comparison.xlsx
+94929f2367ebcda98e0136706290871f2a138252b96cb71b213f8dbc69830c6d  ./ai-agents-rms-emt-case-study/data/speed/rms_emt_comparison.xlsx
 a588f77aeec3b8f86dc48ab313170748edba7e7a1af558d4b73d9d251d2c3dd9  ./ai-agents-rms-emt-case-study/data/speed/wall_clock_observations.csv
 80aa5ce07475d5a4a73b251dd953c506efabc97b8e1da8295bbd16100adbe8d8  ./ai-agents-rms-emt-case-study/data/table3_inputs/andes_S1_T5_poi.csv
 8d098ba032055c3c01fa867d2a307d78579d3ed568c36f7407e642dcc20e2f1a  ./ai-agents-rms-emt-case-study/data/table3_inputs/dpsim_S1_E2_fast_on_dt50.csv
